@@ -3,6 +3,8 @@
 ### Release log
 - FCOS3D R-101-FPN [done, 2022-3-7]
 
+### Ongoing work
+- Integrating CenterFusion to MMdetection3D
 
 ### Notation
 
