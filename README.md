@@ -3,7 +3,8 @@
 ### Release log
 - FCOS3D R-101-FPN [done, 2022-3-7]
 - 3D Faster R-CNN R-101-FPN	[done, 2022-3-9]
-- 
+
+
 ### Ongoing work
 - Integrating CenterFusion to MMdetection3D
 
@@ -17,6 +18,7 @@
 |FPN | feature pyramid network |
 |dconv |deformable convoluation |
 |dconv(c4-c5) |deformable convoluation at stages c4, c5 of FPN|
+|CRF | camera-radar fusion|
 
 ### FCOS
 
