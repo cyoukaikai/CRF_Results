@@ -2,7 +2,8 @@
 
 ### Release log
 - FCOS3D R-101-FPN [done, 2022-3-7]
-
+- 3D Faster R-CNN R-101-FPN	[done, 2022-3-9]
+- 
 ### Ongoing work
 - Integrating CenterFusion to MMdetection3D
 
@@ -20,7 +21,6 @@
 ### FCOS
 
 
-
 |    Backbone     | Conv |  data   | batch size | img size | Lr schd |  mAP | NDS | note|
 | :------------: | :------------:| :---: | :---: | :-----: | :------: | :----: | :----: | :----------: | 
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 1x    |      13.6% |	21.4% |  |
@@ -30,3 +30,16 @@
 | R-101-FPN	      |-	          |1	      |8	|800x448	|1x|	23.8%	|33.3%||
 | R-101-FPN	      | dconv(c4-c5)| 	0.2	| 2	| 1600x900	| 1x	| 17.2%	| 27.0%| |
 | R-101-FPN	      | dconv(c4-c5)| 1	| 32	| 1600x900| 1x	| 29.8%| 	37.7%| released weights|
+
+
+
+### 3D Faster R-CNN
+
+|    Backbone     | Conv |  data   | batch size | img size | Lr schd |  mAP | NDS | note|
+| :------------: | :------------:| :---: | :---: | :-----: | :------: | :----: | :----: | :----------: | 
+|    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 1x    |      11.6%	|19.8%|  |
+|    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 2x    |     12.8%	|20.6%	 |  |
+|    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 3x    |    13.1%	|21.0% ||
+|    R-50-FPN     | -           | 1       |   8     | 800x448  | 1x    |      -|	-||
+| R-101-FPN	      | -	          | 1	      |   8	    | 800x448	 |  1x  |	26.9%	|32.1%||
+
