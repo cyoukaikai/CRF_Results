@@ -23,12 +23,7 @@
 |CRF | camera-radar fusion|
 |rconv_fc|radar features obtained by convoluation, fused with image features at location fc (see the figure below) |
 
-
-<p align="center">
-  <img src="fusion_location.png" width="450" height="350">
-<img src="car4.png" width="450" height="350">
-</p>
-
+![Fusion Location](/fusion_location.png)
 
 ### FCOS
 
