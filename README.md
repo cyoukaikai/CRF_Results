@@ -25,8 +25,8 @@
 
 
 <p align="center">
-  <img src="car2.png" width="350" height="250">
-<img src="car4.png" width="350" height="250">
+  <img src="fusion_location.png" width="450" height="350">
+<img src="car4.png" width="450" height="350">
 </p>
 
 
