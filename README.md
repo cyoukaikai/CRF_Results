@@ -5,7 +5,7 @@
 - 3D Faster R-CNN R-101-FPN	[done, 2022-3-9]
 - 3D Faster R-CNN R-50-FPN 	[done, 2022-3-11]
 - 3D Faster R-CNN CRF_R-50-FPN_rconv_c	[done, 2022-3-12]
-
+- 3D Faster R-CNN X-101-FPN [done, 2022-3-14]
 
 ### Ongoing work
 - Integrating CenterFusion to MMdetection3D
@@ -50,4 +50,5 @@
 |    R-50-FPN     | -           | 1       |   8     | 800x448  | 1x    |     24.3%	|29.8%||
 |CRF_R-50-FPN_rconv_fc	|-	|1	|8	|800x448|	1x	|24.8%|	30.8%||
 | R-101-FPN	      | -	          | 1	      |   8	    | 800x448	 |  1x  |	26.9%	|32.1%||
+| X-101-FPN	| dconv(c2-c5)| 	1| 	8	| 800x448| 	1x| 	31.1%	| 36.5%| |
 
