@@ -6,8 +6,9 @@
 - 3D Faster R-CNN R-50-FPN 	[done, 2022-3-11]
 - 3D Faster R-CNN CRF_R-50-FPN_rconv_c	[done, 2022-3-12]
 - 3D Faster R-CNN X-101-FPN [done, 2022-3-14]
-- 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [done, 2022-3-16]
-
+- 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [done, 2022-3-16, CRF higher mAP and NDS than RGB only]
+- FCOS3D CRF_R-50-FPN_rconv_fc 1x [done, 2022-3-16, CRF higher NDS than RGB only]
+- 
 ### Ongoing work
 
 - CRF-DETR (Transformer based camera-radar fusion)
@@ -28,7 +29,7 @@
 
 ![Fusion Location](/fusion_location.png)
 
-### FCOS
+### FCOS3D
 
 
 |    Backbone     | Conv |  data   | batch size | img size | Lr schd |  mAP | NDS | note|
@@ -37,6 +38,7 @@
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 2x    |     14.2%	| 24.3%	 |  |
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 3x    |     14.4%	| 25.0% ||
 |    R-50-FPN     | -           | 1       |   8     | 800x448  | 1x    |      23.6%	| 32.3% ||
+| CRF_R-50-FPN_rconv_fc| 	-	1	| 8| 	800x448| 	1x| 	23.4%	| 34.5%| |
 | R-101-FPN	      |-	          |1	      |8	|800x448	|1x|	23.8%	|33.3%||
 | R-101-FPN	      | dconv(c4-c5)| 	0.2	| 2	| 1600x900	| 1x	| 17.2%	| 27.0%| |
 | R-101-FPN	      | dconv(c4-c5)| 1	| 32	| 1600x900| 1x	| 29.8%| 	37.7%| released weights|
