@@ -8,6 +8,11 @@
 - 3D Faster R-CNN X-101-FPN [done, 2022-3-14]
 - 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [done, 2022-3-16]
 
+### Ongoing work
+
+- CRF-DETR (Transformer based camera-radar fusion)
+
+
 ### Notation
 
 |    Term     | meaning  |
