@@ -7,8 +7,6 @@
 - 3D Faster R-CNN CRF_R-50-FPN_rconv_c	[done, 2022-3-12]
 - 3D Faster R-CNN X-101-FPN [done, 2022-3-14]
 
-### Ongoing work
-- Integrating CenterFusion to MMdetection3D
 
 ### Notation
 
