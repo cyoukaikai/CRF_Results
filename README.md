@@ -1,13 +1,13 @@
 # CRF_Results
 
 ### Release log
-- FCOS3D R-101-FPN [done, 2022-3-7]
-- 3D Faster R-CNN R-101-FPN	[done, 2022-3-9]
-- 3D Faster R-CNN R-50-FPN 	[done, 2022-3-11]
-- 3D Faster R-CNN CRF_R-50-FPN_rconv_c	[done, 2022-3-12]
-- 3D Faster R-CNN X-101-FPN [done, 2022-3-14]
-- 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [done, 2022-3-16, CRF higher mAP and NDS than RGB only]
-- FCOS3D CRF_R-50-FPN_rconv_fc 1x [done, 2022-3-16, CRF higher NDS than RGB only]
+- FCOS3D R-101-FPN [2022-3-7]
+- 3D Faster R-CNN R-101-FPN	[2022-3-9]
+- 3D Faster R-CNN R-50-FPN 	[2022-3-11]
+- 3D Faster R-CNN CRF_R-50-FPN_rconv_c	[2022-3-12]
+- 3D Faster R-CNN X-101-FPN [2022-3-14]
+- 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [2022-3-16, CRF higher mAP and NDS than RGB only]
+- FCOS3D CRF_R-50-FPN_rconv_fc 1x [2022-3-16, CRF higher NDS than RGB only]
 - 
 ### Ongoing work
 
