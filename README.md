@@ -26,7 +26,7 @@
 |FPN | feature pyramid network |
 |dconv |deformable convoluation |
 |dconv(c4-c5) |deformable convoluation at stages c4, c5 of FPN|
-|CRF | camera-radar fusion|
+|CRF | camera-radar fusion (backbones without 'CRF' mean RGB-only)|
 |rconv_fc|radar features obtained by convoluation, fused with image features at location fc (see the figure below) |
 
 ![Fusion Location](/fusion_location.png)
