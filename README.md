@@ -9,8 +9,8 @@
 - 3D Faster R-CNN R-50-FPN 2x, CRF_R-50-FPN_rconv_fc 2x [2022-3-16, CRF higher mAP and NDS than RGB only]
 - FCOS3D CRF_R-50-FPN_rconv_fc 1x [2022-3-16, CRF higher NDS than RGB only]
 - 3D Faster R-CNN CRF_R-50-FPN_rconv_fa_fb 1x [2022-3-17, NDS is very high]
-
-
+- FCOS3D CRF_R-50-FPN_rconv_fc, CRF_R-101-FPN_proj_fa_fb 1x; R-50-FPN 3x [2022-3-19, better than RGB only; RGB only converged at 2x]
+- 3D Faster R-CNN CRF_R-50-FPN_proj_fa_fb, CRF_R-101-FPN_rconv_fc 1x [2022-3-19, better than RGB only]
 ### Ongoing work
 
 - CRF-DETR (Transformer based camera-radar fusion)
@@ -40,8 +40,10 @@
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 2x    |     14.2%	| 24.3%	 |  |
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 3x    |     14.4%	| 25.0% ||
 |    R-50-FPN     | -           | 1       |   8     | 800x448  | 1x    |      23.6%	| 32.3% ||
-| CRF_R-50-FPN_rconv_fc| 	-	1	| 8| 	800x448| 	1x| 	23.4%	| 34.5%| |
+| CRF_R-50-FPN_rconv_fc| 	-	    | 1	| 8| 	800x448| 	1x| 	23.4%	| 34.5%| |
+|CRF_R-50-FPN_rconv_fc	|-	|1|	8	|800x448	|1x	|23.4%|	34.5%||
 | R-101-FPN	      |-	          |1	      |8	|800x448	|1x|	23.8%	|33.3%||
+|CRF_R-101-FPN_proj_fa_fb|-	|1|	8	|800x448|	1x	|24.4%|	36.2%||
 | R-101-FPN	      | dconv(c4-c5)| 	0.2	| 2	| 1600x900	| 1x	| 17.2%	| 27.0%| |
 | R-101-FPN	      | dconv(c4-c5)| 1	| 32	| 1600x900| 1x	| 29.8%| 	37.7%| released weights|
 
@@ -60,6 +62,8 @@
 |CRF_R-50-FPN_rconv_fa_fb|	-	|1|	8	|800x448|	1x	|24.4%|	35.0%||
 |CRF_R-50-FPN_rconv_fc	|-	|1	|8	|800x448|	1x	|24.8%|	30.8%||
 |CRF_R-50-FPN_rconv_fc	|-	|1	|8	|800x448|	2x	|27.6%	|34.3%||
+|CRF_R-50-FPN_proj_fa_fb	|-	|1	|8|	800x448|	1x|	24.2%|	33.7%||
 | R-101-FPN	      | -	          | 1	      |   8	    | 800x448	 |  1x  |	26.9%	|32.1%||
+|CRF_R-101-FPN_rconv_fc|	-	|1	|8|	800x448	|1x	|27.9%||
 | X-101-FPN	| dconv(c2-c5)| 	1| 	8	| 800x448| 	1x| 	31.1%	| 36.5%| |
 
