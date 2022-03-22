@@ -11,6 +11,11 @@
 - 3D Faster R-CNN CRF_R-50-FPN_rconv_fa_fb 1x [2022-3-17, NDS is very high]
 - FCOS3D CRF_R-50-FPN_rconv_fc, CRF_R-101-FPN_proj_fa_fb 1x; R-50-FPN 3x [2022-3-19, better than RGB only; RGB only converged at 2x]
 - 3D Faster R-CNN CRF_R-50-FPN_proj_fa_fb, CRF_R-101-FPN_rconv_fc 1x [2022-3-19, better than RGB only]
+
+#### 2022-3-22
+
+- New results 
+ 
 ### Ongoing work
 
 - CRF-DETR (Transformer based camera-radar fusion)
