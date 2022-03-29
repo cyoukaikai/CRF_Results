@@ -12,9 +12,9 @@
 - FCOS3D CRF_R-50-FPN_rconv_fc, CRF_R-101-FPN_proj_fa_fb 1x; R-50-FPN 3x [2022-3-19, better than RGB only; RGB only converged at 2x]
 - 3D Faster R-CNN CRF_R-50-FPN_proj_fa_fb, CRF_R-101-FPN_rconv_fc 1x [2022-3-19, better than RGB only]
 
-#### 2022-3-22
+#### 2022-3-29
 
-- New results 
+- CRF results with swin-s backbone obtained.
  
 ### Ongoing work
 
@@ -46,6 +46,7 @@
 |    R-50-FPN     | -           | 0.2     |   8     | 800x448  | 3x    |     14.4%	| 25.0% ||
 |    R-50-FPN     | -           | 1       |   8     | 800x448  | 1x    |      23.6%	| 32.3% ||
 | CRF_R-50-FPN_rconv_fc| 	-	    | 1	| 8| 	800x448| 	1x| 	23.4%	| 34.5%| |
+| CRF_R-50-FPN_rconv_fc| 	-	| 1| 	8	| 800x448| 	2x	| 25.4%| 	37.2%| | 
 |CRF_R-50-FPN_proj_fa_fb|	-	|1|	8|	800x448	|1x|	24.3%	|34.7%||
 | R-101-FPN	      |-	          |1	      |8	|800x448	|1x|	23.8%	|33.3%||
 |CRF_R-101-FPN_proj_fa_fb|-	|1|	8	|800x448|	1x	|24.4%|	36.2%||
@@ -71,9 +72,14 @@
 |CRF_R-50-FPN_rconv_fa_fb|	-	|1|	8	|800x448|	1x	|24.4%|	35.0%||
 |CRF_R-50-FPN_rconv_fc	|-	|1	|8	|800x448|	1x	|24.8%|	30.8%||
 |CRF_R-50-FPN_rconv_fc	|-	|1	|8	|800x448|	2x	|27.6%	|34.3%||
+|CRF_R-50-FPN_rconv_fc	|-|1|	8|	800x448|	3x|	28.0%|	39.8%||
 |CRF_R-50-FPN_proj_fa_fb	|-	|1	|8|	800x448|	1x|	24.2%|	33.7%||
+|CRF_R-50-FPN_proj_fa_fb|-	|1|	8|	800x448|	2x	|26.9%	|37.9%||
+|CRF_R-50-FPN_rconv_fc|	-|	1	|8|	800x448|	3x|	28.0%|	39.8%||
 | R-101-FPN	      | -	          | 1	      |   8	    | 800x448	 |  1x  |	26.9%	|32.1%||
 |CRF_R-101-FPN_rconv_fc|	-	|1	|8|	800x448	|1x	|27.9%|37.8%||
+|CRF_R-101-FPN_rconv_fa_fb|	-|	1|	8|	800x448|	1x|	27.8%|	38.3%||
 | CRF_R-101-FPN_proj_fa_fb	| -|	1	|8|	800x448	|1x |27.6%	| 37.4%| | 
 | X-101-FPN	| dconv(c2-c5)| 	1| 	8	| 800x448| 	1x| 	31.1%	| 36.5%| |
 | CRF_X_R-101-FPN_rconv_fc| 	dconv(c2-c5)	| 1	| 8	| 800x448| 	1x| 	32.0%	| 40.3%| | 
+|CRF_SWIN-S|	|	1|	8	|800x448|	1x|	32.4%|	42.4%||
