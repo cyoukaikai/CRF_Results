@@ -15,7 +15,9 @@
 #### 2022-3-29
 
 - CRF results with swin-s backbone obtained.
- 
+#### 2022-4-7
+- CRF results with swin-s backbone (3x schedule) outperformed CenterFusion.
+- 
 ### Ongoing work
 
 - CRF-DETR (Transformer based camera-radar fusion)
@@ -87,3 +89,5 @@
 | CRF_X_R-101-FPN_rconv_fc| 	dconv(c2-c5)	| 1	| 8	| 800x448| 	1x| 	32.0%	| 40.3%| | 
 |Swin-S|		|1	|8|	800x448|	1x|	31.7%|	38.1%||
 |CRF_Swin-S|	|	1|	8	|800x448|	1x|	32.4%|	42.4%||
+|CRF_Swin-S|	|	1|	8|	800x448|	3x	|33.8%	|46.6%||
+
